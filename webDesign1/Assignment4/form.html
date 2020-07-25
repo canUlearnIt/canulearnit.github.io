@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-ca" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Centennial College</title>
+<style type="text/css">
+*{
+bo rder: thin;
+b order-color:blue;
+b order-style:solid;
+b order-width:thin;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #808080;
+	margin: 0 auto;
+	width: 960px;
+}
+.fieldLabel {
+	vertical-align: top;
+	text-align: right;
+	white-space: nowrap;
+	width: 300px;
+}
+.noWrap {
+	white-space: nowrap;
+}
+table {
+	width: 960px;
+	border: none;
+}
+fieldset {
+	width: 920px;
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #FFFFCC;
+    border: none;
+    -webkit-box-shadow: 5px 5px 5px #828282;
+    -moz-box-shadow: 5px 5px 5px #828282;
+    box-shadow: 5px 5px 5px #828282;
+
+}
+.auto-style1 {
+	text-align: center;
+}
+.tdLeft {
+	text-align: right;
+	white-space: nowrap;
+	width: 400px;
+}
+label{
+		margin-right: 20px;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		color: #282828 ;
+}
+
+}
+.font2Collumn {
+	font-size: small;
+	color: #003300;
+}
+#noBackgroundColor {
+	text-align: center;
+	width: 920px;
+	background-color: #FFFFFF;
+}
+legend {
+	font-weight: bold;
+	color: #181818;
+}
+#title {
+	font-size: large;
+	font-weight:bold;
+	color: #151515;
+	}
+
+#subtitle{
+		color: #151515;
+}
+
+</style>
+</head>
+
+<body>
+<table 	style="margin: 0 auto;  width: 960px;">
+<!--<h3 class="auto-style1">-->
+<table style="width: 920px;">
+	<tr>
+		<td rowspan="3" style="width: 48px; height: 151px"><p><img src="logo.bmp" alt="logo" height="151" width="48" /></p></td>
+		<td style="text-align: center;"><p id="title">Centennial College</p>
+
+	<p id="subtitle">Continuing Education Course / Instructor Evaluation</p>
+	<h6 style="text-align: center">Please read each statement carefully and consider each one individually.</h6>
+	</td></tr>
+	<tr><td><a href="../../webDesign1.html">Back</a></td></tr></table>
+
+<form action="reply.html" method="post">
+	<fieldset style="width:920px">
+	<legend>Contact Information</legend>
+	<table style="width: 100%">
+		<tr>
+			<td class="tdLeft"><label for="lblFirstName">First Name:</label></td>
+			<td>
+			<input name="txtFirstName" id="txtFirstName" size="25" tabindex="1" type="text" required="required" style="width: 184px"/></td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblLastName">Last Name:</label></td>
+			<td>
+			<input name="txtLastName" size="25" tabindex="3" type="text" required="required" style="width: 184px"/></td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblEMail">Email:</label></td>
+			<td>
+			<input name="txtEmail" size="30" tabindex="5" type="email" placeholder="BJohns@hotmail.com" required="required" style="width: 184px" /></td>
+		</tr>
+	</table>
+	</fieldset>
+	<br/>
+	<br/>
+	<fieldset>
+	<legend>Personal Information</legend>
+	<table style="width:920px">
+		<tr>
+			<td class="tdLeft"><label id="Label1">Create Password:</label></td>
+			<td>
+			<input name="txtCreatePwd" size="25" tabindex="7" type="password" style="width: 184px" /></td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="Label1">Confirm Password:</label>
+	</td>
+			<td>
+	<input name="txtConfirmPwd" size="25" tabindex="9" type="password" style="width: 184px" /></td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="Label1">Gender:</label></td>
+			<td>
+			<input name="optGender" tabindex="11" type="radio" value="M" checked="checked" />M
+	<input name="optGender" tabindex="13" type="radio" value="F" />F</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="Label1">Previous Education:</label>
+	</td>
+			<td class="noWrap">
+	<input name="optEd" tabindex="15" type="radio" value="sec" checked="checked" />secondary
+	<input name="optEd" tabindex="17" type="radio" value="col" />college
+	<input name="optEd" tabindex="19" type="radio" value="und" />undergrad
+	<input name="optEd" tabindex="21" type="radio" value="grd" />graduate
+	<input name="optEd" tabindex="23" type="radio" value="pgr" />postgrad</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="Label1">Computer Knowledge:</label>
+	</td>
+			<td class="noWrap">
+	<input name="chkOS" tabindex="35" type="checkbox" value="OS" />OS
+	<input name="chkNet" tabindex="37" type="checkbox" value="Net" />Networking
+	<input name="chkProg" tabindex="39" type="checkbox" value="Prog" />Programming
+	<input name="chkWeb" tabindex="41" type="checkbox" value="Web" />Web Design
+	<input name="chkDB" tabindex="43" type="checkbox" value="DB" />Database</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="Label1">Favourite Colour:</label></td>
+			<td class="noWrap">
+			<input name="txtColor" tabindex="44" type="color" /></td>
+		</tr>
+		</table>
+		</fieldset>
+			&nbsp;
+				&nbsp;<br />
+&nbsp;<fieldset style="width:920px">
+<legend>General Information</legend>
+	<table style="width: 100%">
+		<tr>
+			<td class="tdLeft">&nbsp;<label id="lblCourseName">Course Name / Code:</label></td>
+			<td>
+	<select name="lstCourses0" multiple="multiple" size="5" tabindex="45">
+	<option value="COMP212">COMP212 Programming 3</option>
+	<option value="COMP213">COMP213 Web Interface Design</option>
+	<option value="COMP225">COMP225 Systems I</option>
+	<option value="COMP226">COMP226 Systems II</option>
+	<option value="COMP229">COMP229 Advanced Web Applications</option>
+	<option value="COMP307">COMP307 Software Security</option>
+	</select></td>
+		</tr>
+		<tr>
+			<td  class="tdLeft">
+			<label id="lblSemester" >Semester:</label></td>
+			<td class="font2Collumn"><input name="Text2" type="text" style="width: 250px" /></td>
+		</tr>
+		<tr>
+			<td class="tdLeft" ><label id="lblInstructor">Instructor:</label></td>
+			<td class="font2Collumn"><input name="Text3" type="text" style="width: 250px" /></td>
+		</tr>
+		</table>
+		</fieldset>
+		<br />
+		<br/>
+
+		<fieldset>
+		<legend>Instructor</legend>
+		<table>
+		<tr>
+			<td><b>How would you rate the instructor's:</b></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblInstQstn1">knowledge of subject?</label></td>
+			<td class="font2Collumn"><input name="Radio1" type="radio" value="17" />Excellent
+			<input name="Radio1" type="radio" value="18" />Good
+			<input name="Radio1" type="radio" value="19" />Fair
+			<input name="Radio1" type="radio" value="20" />Not Satisfactory</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblInstQstn2">helpfulness?</label></td>
+			<td class="font2Collumn"><input name="Radio2" type="radio" />Excellent
+			<input name="Radio2" type="radio" />Good
+			<input name="Radio2" type="radio" />Fair
+			<input name="Radio2" type="radio" />Not Satisfactory</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblInstQstn3">courtesy and respect for all students?</label></td>
+			<td class="font2Collumn"><input name="Radio3" type="radio" value="5" />Excellent
+			<input name="Radio3" type="radio" value="6" />Good
+			<input name="Radio3" type="radio" value="7" />Fair
+			<input name="Radio3" type="radio" value="8" />Not Satisfactory</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblInstQstn4">communication skills?</label></td>
+			<td class="font2Collumn"><input name="Radio4" type="radio" value="9" />Excellent
+			<input name="Radio4" type="radio" value="10" />Good
+			<input name="Radio4" type="radio" value="11" />Fair
+			<input name="Radio4" type="radio" value="12" />Not Satisfactory</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblInstQstn5">overall performance?</label></td>
+			<td class="font2Collumn"><input name="Radio5" type="radio" value="13" />Excellent
+			<input name="Radio5" type="radio" value="14" />Good
+			<input name="Radio5" type="radio" value="15" />Fair
+			<input name="Radio5" type="radio" value="16" />Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+&nbsp;&nbsp;<br />
+&nbsp;<fieldset>
+				<legend>Course</legend>
+		<table>
+		<tr>
+			<td class="tdLeft"><label id="lblCrsQstn1">How would you rate course materials?</label></td>
+			<td class="font2Collumn"><input name="Radio6" type="radio" value="21" />Excellent
+			<input name="Radio6" type="radio" value="22" />Good
+			<input name="Radio6" type="radio" value="23" />Fair
+			<input name="Radio6" type="radio" value="24" />Not Satisfactory</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblCrsQstn2">How much did this course meet your
+			expectations?</label></td>
+			<td class="font2Collumn"><input name="Radio7" type="radio" value="25" />Excellent
+			<input name="Radio7" type="radio" value="26" />Good
+			<input name="Radio7" type="radio" value="27" />Fair
+			<input name="Radio7" type="radio" value="28" />Not Satisfactory</td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblCrsQstn3">How would you rate this course (overall)?</label></td>
+			<td class="font2Collumn"><input name="Radio8" type="radio" value="29" />Excellent
+			<input name="Radio8" type="radio" value="30" />Good
+			<input name="Radio8" type="radio" value="31" />Fair
+			<input name="Radio8" type="radio" value="32" />Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+		&nbsp;&nbsp;<br />
+&nbsp;<fieldset>
+		<legend>Additional Information</legend>
+		<table>
+		<tr>
+			<td class="tdLeft">
+			<label id="lblGenQstn1" class="tdLeft">Was the course outline reviewed / explained
+			at the begining of your course?</label></td>
+			<td class="font2Collumn"><input name="Radio9" type="radio" value="33" />Yes
+			<input name="Radio9" type="radio" value="34" />No
+			<input name="Radio9" type="radio" value="35" />Not Sure</td>
+		</tr>
+		<tr>
+			<td height="23px" class="tdLeft" >
+			<label id="lblGenQstn2" class="tdLeft">Would you recommend this
+			course to a friend with the same interests?</label></td>
+			<td style="height: 23px" >
+			<input name="Radio10" type="radio" value="1" class="font2Collumn" />Yes
+			<input name="Radio10" type="radio" value="2" />No
+			<input name="Radio10" type="radio" value="3" />Not Sure</td>
+		</tr>
+		</table>
+				</fieldset>
+				&nbsp;&nbsp;<br />
+&nbsp;<fieldset>
+				<legend>Any Other Comments</legend>
+		<table>
+		<tr>
+			<td class="tdLeft"><label id="lblOtherQstn1">What is the best thing about this course?</label></td>
+			<td  class="font2Collumn">
+			<textarea name="TextArea1" placeholder="Write here, please." style="width: 440px; height: 50px;"></textarea></td>
+		</tr>
+		<tr>
+			<td  class="tdLeft"><label id="lblOtherQstn2">How could we improve this course?</label></td>
+			<td class="font2Collumn">
+			<textarea name="TextArea2" placeholder="Write here, please." style="width: 440px; height: 50px;" ></textarea></td>
+		</tr>
+		<tr>
+			<td class="tdLeft"><label id="lblOtherQstn3">Other:</label></td>
+			<td class="font2Collumn">
+			<textarea name="TextArea3" placeholder="Write here, please." style="width: 440px; height: 50px;"></textarea></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">
+			<label id="Label2">Today's date:</label></td>
+			<td>
+			<input name="Text1" type="date" /></td>
+		</tr>
+
+		</table>
+
+		<table>
+						<tr>
+			<td colspan="2" style="height: 71px" class="auto-style1">
+			<input name="btnReset" tabindex="51" type="reset" value="Start Again" style="width: 125px; height: 35px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input name="btnSubmit" tabindex="49" type="submit" value="Register Now" style="width: 125px; height: 35px" /></td>
+		</tr>
+		<tr>
+			<td  align ="center" style="height: 44px; width: 473px;"><a href="http://www.centennialcollege.ca/continuing_education">
+			Visit our Website</a></td>
+			<td align ="center" style="height: 44px"><a href="mailto:continuingeducation@centennialcollege.ca">
+			Email us</a>&nbsp; <br />
+			</td>
+		</tr>
+
+	</table>
+			</fieldset>
+			&nbsp;
+			<table id="noBackgroundColor"><tr><td colspan="2" style="height: 47px; color:black;"><h6>&copy;Copyright Liliya Artyukh - Student number: 300702887 -
+				Section: 063 - Winter 2013 - COMP213 - Web Interface Design</h6>
+</td></tr></table>
+	<br />
+</form>
+</table>
+
+</body>
+
+</html>

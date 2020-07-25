@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "template.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="description" content="Happy Used Auto sells used cars at reasonable price, for any taste." />
+<meta name="keywords" content="used cars, honda, toyota, nissan, kia, mazda, bmw, used vehicles, used auto, happy used auto, find your happy auto" />
+
+
+<!-- #BeginEditable "doctitle" -->
+	<title>KIA - Happy Used Auto</title>
+<!-- #EndEditable -->
+
+<link href="main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="outerBox">
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+
+		<div id="pageHeader">
+		<a href="home.html"><img id="logo" alt="Happy Car" title="Happy Car" src="images/Happy_Used_Auto_Logo.jpg" /></a>
+		<!--Header content goes here-->
+		<h3 id="slogan">We have the car you need!</h3>
+		</div><!--pageHeader-->
+		
+<!-- #BeginEditable "body" -->
+		<div id="mainContent" >
+		<a href="vehicles.xml">back</a>
+		<vehicleSingle id="car4">
+		<picSingle><img src="images/KIA.jpg" /></picSingle>
+		<makeSingle>Kia</makeSingle>
+		<modelSingle>Soul Sport Wagon</modelSingle>
+		<yearSingle>2011</yearSingle>
+		<priceSingle>15,693</priceSingle>
+		<details>
+		<body_style>4 door Hatchback</body_style>
+		<engine>2.0L 4 cylinder</engine>
+		<transmission>Automatic</transmission>
+		<color>Black</color>
+		<kilometers>51,998</kilometers>
+		<features>AM/FM Radio, Power Windows, Power Doors, Power Steering, Air Conditioning, Cruise Control, ABS Brakes, Spoiler, Heated Seats</features>
+		<description>The 2011 Kia Soul is fashion-forward and fun-to-drive and unlike most of its urban-wagon rivals, it's just as practical as it looks.</description>
+		</details>
+	</vehicleSingle>
+		<!--Page content goes here-->
+		</div><!--mainContent-->
+<!-- #EndEditable -->
+		
+		
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+		
+				<!-- #BeginEditable "navigation" -->
+<div id="mainNav">
+		
+		<div class="mylink" title="home "><a href="home.html" class="myl" >Home</a>
+		</div><div class="mylink" title="vehicles"  style="background-image:url('images/btnActive.jpg');"><a href="vehicles.xml"  style="color:black;" class="myl">Vehicles</a>
+		</div><div class="mylink" title="find your happy auto!"><a href="form.html" class="myl">Find your happy auto!</a>
+		</div><div class="mylink" title="sitemap"><a href="sitemap.html" class="myl">Sitemap</a>
+		</div><div class="mylink" title="contact us"><a href="mailto:happyUsedAutoOwner@hotmail.com" class="myl">Contact us</a>
+		</div>
+		<div><a href="../../webDesign1.html" target="_blank">Back</a></div></div>
+		<!--mainNav end-->
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+		<!-- #EndEditable -->
+
+
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+	
+	 	<div id="pageFooter" >
+	 	<div id="footerMenu"><a href="home.html">Home</a> | <a href="vehicles.xml">Vehicles</a> | <a href="sitemap.html">Sitemap</a> |
+	 	<a href="mailto:happyUsedAutoOwner@hotmail.com">Contact us</a></div> <div id="copyright">&copy;Happy Used Auto 2013</div> 
+		</div><!--pageFooter end-->
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+		</div><!--outerBox end-->
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

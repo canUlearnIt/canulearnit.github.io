@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+}
+body {
+	margin-top: 0;
+	font-family: arial;
+}
+.main {
+	border: 1px solid black;
+	width: 80%;
+	margin: auto;
+}
+.menu {
+	border: 1px solid black;
+	background-color: black;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.menu a {
+	color: yellow;
+	text-decoration: none;
+}
+/* mouse over link */
+.menu a:hover {
+  color: hotpink;
+}
+/* selected link */
+.menu a:active {
+  color: blue;
+}
+.header {
+	background-color: green;
+	height: 120px;
+	display: flex;
+    justify-content:center;
+	align-items:center;
+}
+.content {
+	height: 800px;
+	margin: 10px;
+}
+.about-wrapper {
+	text-align: center;
+}
+.about-wrapper h2 {
+	margin-top:0;
+}
+.about-wrapper li {
+	display: block;
+}
+.my-image {
+	width: 320px;
+	height: 207px;
+	float: left;
+	margin-right: 10px;
+}
+.my-legend {
+	clear: both;
+	width: 70%;
+	margin: auto;
+	padding-top: 70px;
+	text-align: center;
+}
+.my-footer {
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.my-footer p{
+	margin: 0;
+	color: yellow;
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="assignment5.css"?>
+
+<nutrition>
+
+<food>
+	<pic><img src="toblerone.jpg" width="200" height="100" /></pic>
+	<name>Toblerone</name>
+	<mfr>Jacobs Suchard Canada</mfr>
+	<heading>Nutrition Facts</heading>
+	<servingT><g>70</g></servingT>
+	<subHeading>
+		<amount>Amount</amount>
+		<daily_value>% Daily Value</daily_value>
+	</subHeading>
+	<content>
+	<calories><amt>270</amt><p></p></calories>
+	<fat><g>15</g><pc>2</pc></fat>
+	<totalFat>
+		<saturated><g>9</g><p></p></saturated>
+		<trans><g>0.1</g><pc>4</pc></trans>
+	</totalFat>
+	<cholesterol><mg>15</mg><pc>3</pc></cholesterol>
+	<sodium><mg>30</mg><pc>6</pc></sodium>
+	<carbohydrate><g>32</g><pc>7</pc></carbohydrate>
+	<fiber><g>1</g><pc>7</pc></fiber>
+	<sugars><g>31</g><pc>8</pc></sugars>
+	<protein><g>3</g><pc>12</pc></protein>
+	<vitaminA><amt></amt><p> </p></vitaminA>
+	<vitaminC><amt></amt><pb></pb></vitaminC>
+	<calcium><amt></amt><pc>11</pc></calcium>
+	<iron><amt></amt><pc>12</pc></iron>
+	</content>
+
+</food>
+<food>
+	<pic><img src="finger.jpg" /></pic>
+	<name>Finger</name>
+	<mfr>Cadbery</mfr>
+	<heading>Nutrition Facts</heading>
+	<servingF><g>53</g></servingF>
+	<subHeading>
+		<amount>Amount</amount>
+		<daily_value>% Daily Value</daily_value>
+	</subHeading>
+	<content>
+	<calories><amt>160</amt><p></p></calories>
+	<fat><g>8</g><pc>2</pc></fat>
+	<totalFat>
+		<saturated><g>3.5</g></saturated>
+		<trans><g>0</g><pc>3</pc></trans>
+	</totalFat>
+	<cholesterolFing><mg>5</mg><pc>4</pc></cholesterolFing>
+	<sodium><mg>50</mg><p></p></sodium>
+	<carbohydrate><g>19</g><pc>6</pc></carbohydrate>
+	<fiber><g>1</g><pc>7</pc></fiber>
+	<sugars><g>11</g><pc>8</pc></sugars>
+	<protein><g>2</g><p></p></protein>
+	<vitaminA><amt></amt><pb></pb></vitaminA>
+	<vitaminC><amt></amt><pc>11</pc></vitaminC>
+	<calcium><amt></amt><pc>12</pc></calcium>
+	<iron><amt></amt><pc>13</pc></iron>
+	</content>
+</food>
+<food>
+	<pic><img src="alpen.jpg" /></pic>
+	<name>Chewy Granola Bars</name>
+	<mfr>Selection</mfr>
+	<heading>Nutrition Facts</heading>
+	<servingG><g>26</g></servingG>
+	<subHeading>
+		<amount>Amount</amount>
+		<daily_value>% Daily Value</daily_value>
+	</subHeading>
+	<content>
+	<calories><amt>110</amt><p></p></calories>
+	<fat><g>2.5</g><pc>2</pc></fat>
+	<totalFat>
+		<saturated><g>0.4</g></saturated>
+		<trans><g>0</g><pc>3</pc></trans>
+	</totalFat>
+	<cholesterolGren><mg>0</mg><pc>4</pc></cholesterolGren>
+	<sodium><mg>60</mg><p></p></sodium>
+	<carbohydrate><g>19</g><pc>13</pc></carbohydrate>
+	<fiber><g>1</g><pc>6</pc></fiber>
+	<sugars><g>7</g><pc>7</pc></sugars>
+	<protein><g>2</g><pc>8</pc></protein>
+	<vitaminA><amt></amt><p></p></vitaminA>
+	<vitaminC><amt></amt><pb></pb></vitaminC>
+	<calcium><amt></amt><pc>11</pc></calcium>
+	<iron><amt></amt><pc>12</pc></iron>
+	</content>
+</food>
+
+</nutrition>

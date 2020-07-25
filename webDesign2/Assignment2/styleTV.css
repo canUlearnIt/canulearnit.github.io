@@ -1,0 +1,99 @@
+*{
+	b order:  1px solid;
+	margin: 0;
+	padding: 0;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	b order-color: green;
+	color: #1F1F1F;
+	}
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-image: url('back.jpg');
+	c olor: #C0EBED;
+	background-attachment: fixed;
+}
+#outerBox{
+	background-color: white;
+	padding: 0  20px   0  20px ;
+}
+
+/*-----------------------header styling---------------------*/
+#header{
+	height: 180px;
+		b ackground-color: grey;
+}
+#logo{
+	float: left;
+	padding-left:5px;
+}
+#title{
+	display: block;
+	padding: 58px 0 58px 180px;
+}
+
+/*-----------------------time and date styling---------------------*/
+#date_time{
+	clear: left;
+	padding: 10px 0  40px 0;
+	margin: 0 20px;
+}
+#date{
+	float: left;
+	width: 500px;
+}
+#time{	
+	float: left;
+	b order: 1px solid green;
+	width: 300px;
+}
+
+/*-----------------------content styling---------------------*/
+#content{
+	padding: 20px;
+}
+
+#tv{
+	float: left;
+	padding: 87px 40px;
+	border: 1px solid grey;
+}
+
+#details{
+	float: left;
+	p adding: 0 20px 25px 20px;
+	margin-bottom:2px;
+	b order: 1px solid green;
+	w idth: 475px;
+}
+
+#price{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	width: 130px;
+	height:20px;
+	padding: 5px;
+	margin: 20px 0;
+}
+button{
+	width:100px;
+	height: 20px;
+}
+#brand{
+	clear: both;
+	padding-top: 30px;
+	min-height: 130px;
+	b order: 1px solid red;
+	display: block;
+}
+#brandLoop{
+	color:green;
+}
+/*-----------------------footer styling---------------------*/
+#footer{
+	clear:both;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	background-color: white;
+}

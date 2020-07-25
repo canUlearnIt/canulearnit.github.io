@@ -1,0 +1,58 @@
+*{
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #1F1F1F;
+	margin: 0;
+	padding: 0;
+}
+
+label {
+ 	font-style: italic;
+ 	font-weight: bold;
+ 	color: navy;
+}
+body{
+	background-color: #005566;
+	margin: 0 auto;
+	width: 960px;
+	height: 600px;
+}
+
+#outerBox {
+	background-color: #F1F0F4;
+}
+
+#pageHeader {
+	height: 128px;
+	border-bottom: solid 1px blue;
+}
+#bannerPic {
+	width: 336px;
+	height: 128px;
+	float: left;
+	padding-right: 50px;
+}
+#title {
+	padding-top: 60px;
+}
+td {
+	height: 80px;
+	width: 250px;
+}
+.subLabel {
+	font-size: small;
+	color: black;
+}
+#mainContent {
+	height: 600px;
+	padding: 50px;
+}
+
+#pageFooter {
+	height: 20px;
+	text-align: center;
+	padding-top: 230px;
+}
+
+#formError {
+	color: red;
+}

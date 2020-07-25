@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Member Registration</title>
+<link href="styleForm.css" rel="stylesheet" type="text/css" />
+</head>
+<body
+><div id="header"
+><img src="logo.png"
+/></div><!--end header-->
+<div id="content"
+><div id="formDiv"
+><h3>Member Registration</h3
+><p>Please complete all the fields below.</p>
+
+<form id="myForm" name="theForm" action="replyForm.html" method="#"><table>
+<tr height="25px" ><td colspan="2" ><span id="formError" name="formError" ></span>
+</td></tr>
+<tr><td><label>Course name:</label></td>
+<td><input id="txtCourseName" class="text" name="txtCourseName" size="25" tabindex="1" type="text">
+</td></tr>
+<tr><td><label>First name:</label>
+</td><td><input id="txtFirtName" class="text" name="txtFirtName" size="25" tabindex="1" type="text">
+</td></tr>
+<tr><td><label>Last name:</label>
+</td><td><input id="txtLastName" class="text" name="txtLastName" size="25" tabindex="2" type="text">
+</td></tr>
+<tr><td><label>Address:</label>
+</td><td><input id="txtAddress" class="text" name="txtAddress" pattern="^[\d]*,\s[A-Za-z]{3,}|[\d]*,\s[A-Za-z]{3,}\s[A-Za-z]*$" placeholder="bld#, street" size="25" tabindex="3" type="text" />
+</td></tr>
+<tr><td><label>City:</label>
+</td><td><input id="txtCity" class="text" name="txtCity" size="25" tabindex="4" type="text" />
+</td></tr>
+<tr><td><label>Postal Code:</label>
+</td><td><input id="txtPostalCode" class="text" name="txtPostalCode" pattern="^[a-zA-Z]\d[a-zA-Z]\d[a-zA-Z]\d$" placeholder="A#A#A#" size="25" tabindex="5" type="text" />
+</td></tr>
+<tr><td><label>Province:</label>
+</td><td><input  id="txtProvince" list="provinces" class="text" name="txtProvince" pattern="^[a-zA-Z][a-zA-Z]$" placeholder="AA" size="25" tabindex="6" type="text" />
+<datalist id="provinces">
+<option value="AB">AB</option>
+<option value="BC">BC</option>
+<option value="ON">ON</option>
+<option value="MN">MN</option>
+<option value="QC">QC</option>
+<option value="SK">SK</option>
+</datalist></td></tr>
+<tr><td><label>Age:</label>
+</td><td><input id="txtAge" class="text" name="txtAge" size="25" tabindex="7" type="text">
+</td></tr>
+<tr><td><label>Password:</label>
+</td><td><input id="txtCreatePwd" class="text" name="txtCreatePwd" pattern="^(?=.*\d)[\w]{6,}$" size="25" tabindex="8" type="password">
+</td></tr>
+<tr><td><label>Confirm:</label>
+</td><td><input id="txtConfirmPwd" class="text" name="txtConfirmPwd" size="25" tabindex="9" type="password">
+</td></tr>
+<tr><td><label>Email:</label>
+</td><td><input id="txtEmail"  class="text" name="txtEmail" size="30" tabindex="10" "type="email"" pattern="^[a-zA-Z\d_\.]+@[a-zA-Z]+\.[a-zA-Z]+$" placeholder="BJohns@hotmail.com">
+</td></tr>
+<tr><td colspan="2" style="align: left; padding-top: 10px; ">
+<input id="btnReset" class="button" name="btnReset" tabindex="11" type="reset" value="Start Again" />
+<input id="btnSubmit" class="button" name="btnSubmit" tabindex="12" type="submit" value="Register Now"  />
+</td></tr></table></form></div><!--formDiv end-->
+<div id="pictures" style="float: left; width: 340px; ">
+<p>We offer different courses!</p>
+<img id="mainImage" src="web.jpg" /></div
+><div style="clear: both;" ><a href="../../index.html">Back</a
+></div><!--end pictures div-->
+</div><!--end content-->
+<div id="footer"
+><h6>&copy;Liliya Artyukh 300702887 Advanced Web Design Fall 2013</h6
+></div><!--end footer-->
+<script src="scriptForm.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>COMP229Midterm: Flight Reservation</title>
+<link href="300702887Styles.css" rel="stylesheet" type="text/css" media="screen, projection">
+</head>
+
+<body>
+<div id="outerBox">
+	<div id="pageHeader">
+		<img alt="plane" id="bannerPic"  src="banner.jpg"><h3 id="title">Best Booking System</h3>
+		</div><!--end pageHeader-->
+	<div id="mainContent">
+	<h4>Book your flight</h4>	<!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+	<form id="myForm" name="theForm" action="replyForm.html" method="#">
+	<table>
+	<tr><td colspan="3"><h6 id="formError" ></h6></td>
+	</tr>
+	<tr>
+	<td colspan="3">
+	<input type="radio" name="rdTrip" id="round" value="round"><label>Round Trip</label>
+	<input type="radio" name="rdTrip" id="one" value="one"><label>One Way</label>
+	</td>
+	</tr>
+	<tr>
+		<td>
+		<label for="flightFrom">From:</label>	</br>	</br>
+		<select  id="flightFrom" name="flightFrom" >
+			<option>--no location selected--</option>
+								<option>Downtown Airport</option>
+						<option>Pearson Airport</option>
+		</select>
+		</td>
+			<td style="width: 340px;">
+			<label>Departure Date:</label></br>
+				</br>
+					<label class="subLabel">Day</label><!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+								<select id="depDay" >
+									<option>_ _</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+									<option>6</option>
+									<option>7</option>
+									<option>8</option>
+									<option>9</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+									<option>13</option>
+									<option>14</option>
+									<option>15</option>
+									<option>16</option>
+									<option>17</option>
+									<option>18</option>
+									<option>19</option>
+									<option>20</option>
+									<option>21</option>
+									<option>22</option>
+									<option>23</option>
+									<option>24</option>
+									<option>25</option>
+									<option>26</option>
+									<option>27</option>
+									<option>28</option>
+									<option>29</option>
+									<option>30</option>
+									<option>31</option>
+								</select>
+				<label class="subLabel">Month</label>
+						<select  id="depMon">
+								<option>_ _</option
+								><option>1</option
+								><option>2</option
+								><option>3</option
+								><option>4</option>
+								<option>5</option>
+								<option>6</option><!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>
+			<label class="subLabel">Year</label>
+					<select  id="depYear">
+						<option>_ _</option>
+						<option>2013</option>
+						<option>2014</option>
+					</select>
+		</td>
+			<td>	<label>Passengers:</label>
+				</br>	</br>
+			<label class="subLabel">Adults:</label>
+							<select  id="adults">
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+							</select>
+		</td><!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+	</tr>
+	<tr>
+		<td>
+		<label>To:</label>	</br>	</br>
+			<select  id="flightTo">
+				<option>--no location selected--</option>
+				<option>London</option>
+				<option>Toronto</option>
+				<option>Montreal</option>
+			</select>
+		</td>
+			<td>
+			<div id="returnDate">
+			<label>Return Date:</label></br>
+			</br>
+								<label class="subLabel">Day</label>
+											<select  id="retDay">
+												<option>_ _</option><!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+												<option>25</option>
+												<option>26</option>
+												<option>27</option><!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+												<option>28</option>
+												<option>29</option>
+												<option>30</option>
+												<option>31</option>
+											</select>
+							<label class="subLabel">Month</label>
+									<select  id="retMon">
+											<option>_ _</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+											<option>9</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+										</select>
+						<label class="subLabel">Year</label>
+								<select  id="retYear">
+									<option>_ _</option>
+									<option>2013</option>
+									<option>2014</option>
+					</select>
+					</div><!--returnDate end-->
+		</td>
+			<td>
+			<label class="subLabel">Children:</label>
+						<select  id="numChildren">
+							<option>0</option><!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+						</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<label>Class:</label>
+				<input type="radio" name="rdClass"  id="econ" value="economy"><label class="subLabel">economy</label>
+				<input type="radio" name="rdClass"  id="bus" value="business"><label class="subLabel">business</label>
+		</td>
+		<td>
+		<input id="btnSubmit" style="width: 200px; height: 35px; background-color: navy; color: white;" class="button" name="btnSubmit" tabindex="" type="submit" value="Find Available Flights"  />
+		</td>
+	</tr>
+	</table>
+	</form>
+
+	</div><!--end mainContent-->
+	<div id="pageFooter"><h6>&copy;Liliya Artyukh 300702887 Advanced Web Design Fall 2013</h6><!--Liliya Artyukh Student Number: 300702887 - Web Design:229  -->
+	</div><!--end pageFooter-->
+	</div><!--end outerBox-->
+	<script src="300702887Script.js" language="javascript" type="text/javascript"></script>
+</body>
+</html>

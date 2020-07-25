@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml-stylesheet type="text/css" href="assignment5T.css"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+</head>
+
+<body>
+<a href="../../webDesign1.html" target="_blank">Back</a>
+
+<h4>Delicious food from Metro supermarket!</h4>
+<nutrition>
+<food>
+	<pic><img src="toblerone.gif" width="200" height="100" /></pic>
+	<name>Toblerone</name>
+	<mfr>Jacobs Suchard Canada</mfr>
+	<heading>Nutrition Facts</heading>
+	<servingT><g>53</g></servingT>
+	<subHeading>
+		<amount>Amount</amount>
+		<daily_value>% Daily Value</daily_value>
+	</subHeading>
+		<content>
+		<calories><amt>270</amt><p></p></calories>
+		<fat><g>15</g><pc>2</pc></fat>
+		<totalFat>
+			<saturated><g>9</g><p></p></saturated>
+			<trans><g>0.1</g><pc>4</pc></trans>
+		</totalFat>
+		<cholesterol><mg>15</mg><pc>3</pc></cholesterol>
+		<sodium><mg>30</mg><pc>6</pc></sodium>
+		<carbohydrate><g>32</g><pc>7</pc></carbohydrate>
+		<fiber><g>1</g><pc>7</pc></fiber>
+		<sugars><g>31</g><pc>8</pc></sugars>
+		<protein><g>3</g><pc>12</pc></protein>
+		<vitaminA><amt></amt><p> </p></vitaminA>
+		<vitaminC><amt></amt><pb></pb></vitaminC>
+		<calcium><amt></amt><pc>11</pc></calcium>
+		<iron><amt></amt><pc>12</pc></iron>
+	</content>	
+</food>
+<food>
+	<pic><img src="finger.jpg" width="202" height="92" /></pic>
+	<name>Finger</name>
+	<mfr>Cadbery</mfr>
+	<heading>Nutrition Facts</heading>
+	<servingF><g>31</g></servingF>
+	<subHeading>
+		<amount>Amount</amount>
+		<daily_value>% Daily Value</daily_value>
+	</subHeading>
+<content>
+	<calories><amt>160</amt><p></p></calories>
+	<fat><g>8</g><pc>2</pc></fat>
+	<totalFat>
+		<saturated><g>3.5</g></saturated>
+		<trans><g>0</g><pc>3</pc></trans>
+	</totalFat>
+	<cholesterolFing><mg>5</mg><pc>4</pc></cholesterolFing>
+	<sodium><mg>50</mg><p></p></sodium>
+	<carbohydrate><g>19</g><pc>6</pc></carbohydrate>
+	<fiber><g>1</g><pc>7</pc></fiber>
+	<sugars><g>11</g><pc>8</pc></sugars>
+	<protein><g>2</g><p></p></protein>
+	<vitaminA><amt></amt><pb></pb></vitaminA>
+	<vitaminC><amt></amt><pc>11</pc></vitaminC>
+	<calcium><amt></amt><pc>12</pc></calcium>
+	<iron><amt></amt><pc>13</pc></iron>
+	</content>	
+</food>
+<food>
+	<pic><img src="grenola.png" width="" height="" /></pic>
+	<name>Chewy Granola Bars</name>
+	<mfr>Selection</mfr>
+	<heading>Nutrition Facts</heading>
+	<servingG><g>26</g></servingG>
+	<subHeading>
+		<amount>Amount</amount>
+		<daily_value>% Daily Value</daily_value>
+	</subHeading>
+		<content>
+			<calories><amt>270</amt><p></p></calories>
+			<fat><g>15</g><pc>2</pc></fat>
+			<totalFat>
+				<saturated><g>9</g><p></p></saturated>
+				<trans><g>0.1</g><pc>4</pc></trans>
+			</totalFat>
+			<cholesterol><mg>15</mg><pc>3</pc></cholesterol>
+			<sodium><mg>30</mg><pc>6</pc></sodium>
+			<carbohydrate><g>32</g><pc>7</pc></carbohydrate>
+			<fiber><g>1</g><pc>7</pc></fiber>
+			<sugars><g>31</g><pc>8</pc></sugars>
+			<protein><g>3</g><pc>12</pc></protein>
+			<vitaminA><amt></amt><p> </p></vitaminA>
+			<vitaminC><amt></amt><pb></pb></vitaminC>
+			<calcium><amt></amt><pc>11</pc></calcium>
+			<iron><amt></amt><pc>12</pc></iron>
+	</content>
+</food>
+</nutrition>
+			<div style="margin-top: -2px">
+				<h6 style="color:black;" align="center">&copy;Copyright Liliya Artyukh - Student number: 300702887 -
+				Section: 063 - Winter 2013 - COMP213 - Web Interface Design
+				<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+				</h6>
+				</div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+*{
+	b order:  1px solid;
+	margin: 0;
+	padding: 0;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	b order-color: green;
+	color: #1F1F1F;
+	}
+a:link{
+text-decoration: none;
+}
+
+a:hover{
+color: #A32500;
+text-decoration: underline;
+}
+
+a:active{
+color: #A32500;	
+text-decoration: underline;
+}
+a:visited{
+text-decoration: none;
+}
+
+.creditList {
+	margin-top: 10px;
+	margin-left:50px;
+}
+
+.subList {
+	font-size: small;
+}
+
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-image: url('backMain.jpg');
+	background-attachment: fixed;
+}
+
+#outerBox{
+	width:960px;
+	background-color: white;
+	p osition:absolute;
+	height: 960px;
+	background-color: #FAF6EF;
+	b order: 1px solid black;
+}
+
+/*----------------HEADER STYLING---------------------*/
+#header{
+	width:960px;
+	height:146px;
+	background-color: #304026;
+	p osition: relative;
+}
+#bannerPic{
+	float: left;
+	padding: 0 50px 0 0;
+	width: 247px;
+	height: 146px;
+	border-style: none;
+}
+
+/*-----------------title div contains name and course name----------*/
+#title{
+width: 300px;
+display: block;
+float: left;
+}
+#name{
+	color: #FFFFDB;
+	padding: 20px 0 10px 0;
+}
+#courseName{
+padding: 5px 0 10px 0;
+}
+
+#contact{
+	background-image: url('contact.jpg');
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	width: 55px;
+	height: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 880px;
+	display: block;
+}
+
+/*--------------END HEADER STYLING------------*/
+
+/*---------------NAVIGATION STYLING--------------*/
+#navigation{
+	width:960px;
+	height:48px;
+	border-color: #00421E;
+	background-color: #00421E;
+	border-width: 0 1px 0 1px;
+	p osition: relative;
+}
+.menu{
+	width:190px;
+	height: 46px;
+	float: left;
+	p osition: absolute;
+	background-image: url('lillyMenuNorm.jpg');
+	color: #FFFFDB; FFFFC1; FFFFDB;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+	border:1px solid;
+	border-color: #00421E;
+	text-decoration: none;
+}
+.menuActive{
+	text-decoration: none;
+	background-image:url('lillyMenuAct.jpg');
+	width:190px;
+	height: 46px;
+	float: left;
+	color: #1F1F1F;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid;
+	border-color: #00421E;
+}
+
+span {
+	display: inline-block;
+	vertical-align: middle;
+}
+/*--------------END NAVIGATION STYLING------------*/
+
+/*---------------CONTENT STYLING--------------*/
+#content{
+	width:625px;
+	height:720px;
+	padding: 20px 20px 20px 30px;
+	b ackground-color: #FAF6EF;
+	float:left;
+	p osition: relative;
+	b order:5px solid grey;
+	m argin:20px;
+}
+
+ul{
+	padding: 0 0 0 40px;
+}
+
+a.content:link, a.content:visited{
+text-decoration: underline;
+}
+
+a.content:hover, a.content:active{
+color: #A32500;
+}
+
+/*---------------CONTENT STYLING END--------------*/
+
+/*---------------SIDEBAR STYLING--------------*/
+#sideBar{
+	width:285px;
+	height: 760px;
+	b ackground-color: white;
+	b order-left:1px solid grey;
+	m argin: 20px;
+	d isplay: block;
+	p osition: absolute;
+	p adding: 60px 20px 60px 20px;
+	float: right;
+}
+#sideContent{
+	padding: 30px 20px 80px 20px;
+	border-left:1px solid grey;
+	margin-top: 40px;
+	width:244px;
+	h eight: 400px;
+
+}
+
+/*---------------SIDEBAR STYLING END--------------*/
+
+/*---------------FOOTER STYLING--------------*/
+#footer{
+	width:960px;
+	height:39px;
+	text-align: center;
+	vertical-align: text-bottom;
+	p osition: absolute;
+	display: block;
+	clear: both;
+}
+
+#footerMenu {
+	padding: 6px 0 6px 6px;
+	color: blue;
+	display: block;
+	font-size: 17px;
+	background-color: white;
+}
+
+#copyright {
+	height: 23px;
+	padding: 6px 0 3px 0;		
+	font-size: 11.5px;
+	display: block;
+	color: #FFFFFF;
+	background-color: transparent;
+}

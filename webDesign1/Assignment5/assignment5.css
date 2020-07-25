@@ -1,0 +1,122 @@
+* {
+display: block;
+font-family: Arial, sans serif;
+}
+
+food {
+margin-right: 50px;
+border: 1px solid ;
+width: 280px;
+padding: 0.5em;
+float: left;
+}
+
+nutrition {
+margin-left: 140px;
+}
+
+name {
+color: brown;
+font-size: 1.5em;
+background-color: #669966;
+font-weight: bold;
+font-variant: small-caps;
+}
+
+pc, p, pb, pn{
+width: 35px;
+background-color: #99CCFF;
+padding-top: 0.11em;
+float: right;
+}
+
+heading {
+font-size: large;
+}
+
+amount, daily_value {
+font-size: small;
+font-weight: bold;
+display: inline;
+}
+
+mfr {
+font-size: large;
+font-weight: bold;
+border-bottom: 3px solid;
+background-color: #669966;
+text-transform: uppercase;
+}
+
+subHeading, servingT, servingF, servingG  {
+border-bottom: 2px solid;
+border-color: brown;
+font-size: small;
+}
+
+img {
+margin: 5px;
+}
+
+daily_value { 
+margin-left: 140px;
+background-color: #99CCFF;
+}
+
+g, mg, amt, pr {
+display: inline;
+}
+
+saturated, trans {
+padding-top: 0.08em;
+padding-bottom: 0.1em;
+b order-bottom: 1px solid brown;
+background-color: #FFCC99;
+}
+
+totalFat, fat, calories,cholesterol, cholesterolGren, cholesterolFing, sodium, 
+carbohydrate, fiber, sugars, vitaminA, vitaminC, calcium {
+padding-top: 0.08em;
+padding-bottom: 0.1em;
+border-bottom: 1px solid brown;
+background-color: #FFCC99;
+}
+vitaminA, vitaminC, calcium, iron {
+padding-top: 0.3em;
+background-color: #99FF99;
+border-bottom: 1px solid brown;
+}
+
+protein {
+background-color: #FFCC99;
+border-bottom: 3px solid brown;
+}
+
+servingT:before { content: "Per 2 pieces ("; }
+servingF:before { content: "Per 6 biscuits ("; }
+servingG:before { content: "Per 1 bar ("; }
+calories:before { margin-right: 10px; font-weight: bold; content: "Calories"; }
+fat:before { margin-right: 10px; font-weight: bold; content: "Fat"; }
+saturated:before { margin-right: 10px; margin-left: 10px; content: "Saturated"; }
+trans:before { margin-right: 10px; margin-left: 10px; content: "+ Trans"; }
+cholesterol:before { margin-right: 10px; font-weight: bold; content: "Cholesterol"; }
+cholesterolGren:before { margin-right: 10px; font-weight: bold; content: "Cholesterol"; }
+cholesterolFing:before { margin-right: 10px; font-weight: bold; content: "Cholesterol"; }
+sodium:before {  margin-right: 10px; font-weight: bold; content: "Sodium"; }
+carbohydrate:before { margin-right: 10px; font-weight: bold; content: "Carbohydrate"; }
+fiber:before { margin-right: 10px; margin-left: 10px; content: "Fiber"; }
+sugars:before { margin-right: 10px; margin-left: 10px; content: "Sugars"; }
+protein:before { margin-right: 10px; font-weight: bold; content: "Protein"; }
+vitaminA:before { margin-right: 10px; content: "Vitamin A"; }
+vitaminC:before { margin-right: 10px; content: "Vitamin C"; }
+calcium:before { margin-right: 10px; content: "Calcium"; }
+iron:before { margin-right: 10px; content: "Iron"; }
+g:before { text-align: left; }
+
+pc:after { content: "%"; }
+pr:after { content: "%"; }
+g:after { content: "g "; }
+mg:after {content: "mg "; }
+servingT:after { content: ")"; }
+servingF:after { content: ")"; }
+servingG:after { content: ")"; }

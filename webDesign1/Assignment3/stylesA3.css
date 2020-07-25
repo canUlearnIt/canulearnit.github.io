@@ -1,0 +1,179 @@
+/* ==== global settings ==== */
+
+body
+{
+	font-family: Verdana, sans-serif;
+	background: #bbb url("shoes.jpg")
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+	margin: 1ex 1em;
+}
+
+table
+/*--Liliya Artyukh Student Number: 300702887 - Web Design:213  --*/
+{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+tr, td
+ {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+ul
+{
+	list-style-image: url("bullets.gif");
+}
+
+/* ==== outer Table ==== */
+
+#outerTable
+{
+	margin: 0 auto;
+	padding: 0 5px 0 0 ;
+    width: 770px;
+    background: #FFF ;
+}
+
+/* ==== banner ==== */
+
+#banner img
+{
+	border: none;
+	text-decoration: none;
+	float: left;
+	margin: 5px 35px 0 0;
+}
+
+#bannerTitle
+/*--Liliya Artyukh Student Number: 300702887 - Web Design:213  --*/
+{
+	margin-top: 35px;
+	font-family: "Verdana", sans-serif;
+	color: #863503;
+}
+
+/* ==== contact Button ==== */
+
+#contactButton 
+{
+    height: 55px;
+}
+
+#contactButton div {
+    height: 30px;
+    margin: 0 0 0 650px;
+    padding: 0;
+}
+
+#contactButton img 
+{
+    margin: 0;
+    border: none;
+}
+
+/* ==== main Menu Table ==== */
+
+#mainMenu
+/*--Liliya Artyukh Student Number: 300702887 - Web Design:213  --*/
+{
+	font-weight: bold;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+#mainMenu a:link
+{
+	color: #A03E00;
+	text-decoration: none;
+}
+
+#mainMenu a:hover
+{
+	text-decoration: underline;
+}
+
+#mainMenu a:visited
+{
+	color: #A03E00;
+	text-decoration: none;
+}
+
+#mainMenu td
+{
+	padding: 3px;
+}
+
+/* ==== content Table ==== */
+
+table#contentTable tr td
+/*--Liliya Artyukh Student Number: 300702887 - Web Design:213  --*/
+{
+	border: .5px ;
+	border-color: #5A2402;
+	border-style: solid;
+	vertical-align: middle;
+}
+
+table#contentTable 
+{
+	border: .5px ;
+	border-color: #5A2402;
+	border-style: solid;
+	vertical-align: middle;
+	margin-top: 30px;
+}
+
+table#contentTable td
+{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+table#contentTable th
+{
+text-align:center;
+padding-left: 5px;
+padding-right: 5px;
+color: #5A2402;
+font-size: large;
+}
+
+#contentTable h4
+{
+font-family: "Arial", sans-serif;
+}
+
+#contentTable
+{
+	margin-right: 20px;
+}
+
+#contentTable a:link
+{
+	text-decoration: none;
+	color: #8B6903;
+}
+
+#contentTable a:visited
+{
+	text-decoration: none;
+	color: #BBBBBB;
+}
+
+/* ==== map ==== */
+
+#map tr
+/*--Liliya Artyukh Student Number: 300702887 - Web Design:213  --*/
+{
+	vertical-align: middle;
+	align: center;
+}

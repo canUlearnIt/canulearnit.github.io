@@ -1,0 +1,392 @@
+﻿
+*{
+	b order:  1px solid;
+	margin: 0;
+	padding: 0;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+p {
+		color: #282828 ;
+}
+
+body{
+	border-color: green;
+	background-color:silver;
+}
+
+#outerBox {
+	height:1000px;;
+	background-color:white;
+	width:959px;
+	margin: 0 auto;	
+	position:relative;
+}
+
+#pageHeader{
+	background-color: white;
+	background-image: url('images/backgroundHeader.jpg');
+	width: 958px;
+	border-color: red;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	height: 128px;
+	border-bottom:thin gray solid;
+	}
+	
+#slogan {
+	f ont-size:large;
+	font-weight:900;
+	color: white;
+	position: absolute;
+	top: 95px;
+	left: 650px;
+	b order:1px white solid;
+}
+
+#mainNav{
+	background-color: white;
+	width: 202px;
+	height:790px;
+	border-color: black;
+	padding-bottom: 32px;
+	z-index: 2;
+	top:130px;
+	position: relative;
+	border-right:thin gray solid;
+		text-decoration:none;
+	font-family:"Showcard Gothic", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#mainContent{
+	background-color: white;
+	width: 719px;
+	height: 790px;
+	border-color: blue;
+	padding: 16px;
+	z-index: 3;
+	position: absolute;
+	top:130px;
+	left: 208px;
+	float: left;
+	}
+
+#pageFooter{
+	background-color: white;
+	width: 958px;
+	border-color: yellow;
+	position: absolute;
+	z-index: 4;
+	border-top:thin gray solid;
+	top:956px;
+	left: 0px;
+}
+
+img.logo {
+	border-style: none;
+	float: left;
+	text-decoration:none;
+}
+
+a:link img{border-color:#FFF; border-style:none; border-width:0}
+a:hover img{border-color:#03F; border-style:none; border-width:0;}
+a:visited img, a:active img{border-color:#036; border-style:none; border-width:0;}
+
+#copyright {
+	float: right;
+	padding-top: 6px;
+	padding-bottom:16px;	
+	padding-right:6px;	
+	font-size:small;
+}
+
+#footerMenu {
+	float: left;
+	padding-top: 6px;
+	padding-bottom:16px;
+	padding-left:6px;
+	color:blue;
+}
+
+
+h4 {
+font-family:"Showcard Gothic", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+text-align:center;
+}
+
+h5 {
+color:#AE3E08;
+font-size:large;
+}
+
+.homeimgs {
+	float:left;
+	padding-right:16px;
+	padding-bottom:3px;
+}
+
+.hometext {
+	text-align:justify;
+	t ext-indent: 330px;
+	margin-bottom:16px;
+}
+
+ul li ol {
+	list-style-type:none;
+	line-height:150%;
+}
+
+.indentSmall {
+		margin-left: 30px;	
+			line-height:150%;
+}
+.indentBig {
+	margin-left: 35px;	
+}
+a {
+	text-decoration:none;
+}
+
+a.myl {
+    display: block;
+    width:200px;
+	height:40px;
+	color:#AE3E08;
+	font-family:"Showcard Gothic", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	padding-top:30px;
+}
+
+a:active.myl {
+	color:black;
+	display: block;
+    width:200px;
+	height:40px;
+	padding-top:30px;
+	}
+
+a:hover.myl {
+	color:black;
+	display: block;
+    width:200px;
+	height:40px;
+	padding-top:30px;
+}
+
+a:link.myl {
+	color:#AE3E08;;
+	display: block;
+    width:200px;
+	height:40px;
+	padding-top:30px;
+}
+
+div:active.mylink {
+	background-image:url('images/btnActive.jpg');
+	border: 0;
+	width:200px;
+	height:60px;
+	color:black;
+	font-family:"Showcard Gothic", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-align:center;
+	white-space:nowrap;
+	text-decoration:none;
+}
+
+div.mylink {
+	background-image:url('images/btn.jpg');
+	border: 0;
+	width:200px;
+	height:60px;
+	color:#AE3E08;
+	text-align:center;
+	white-space:nowrap;
+	text-decoration:none;
+}
+
+div:link.mylink {
+	background-image:url('images/btnActive.jpg');
+	border: 0;
+	width:200px;
+	height:60px;
+	color:black;
+	text-align:center;
+	white-space:nowrap;
+	text-decoration:none;
+}
+
+
+div:visited.mylink {
+	background-image:url('images/btn.jpg');
+	border: 0;
+	width:200px;
+	height:60px;
+	color:black;
+	text-align:center;
+	white-space:nowrap;
+	text-decoration:none;
+}
+
+div:hover.mylink {
+	background-image:url('images/btnActive.jpg');
+	border: 0;
+	width:200px;
+	height:60px;
+	color:black;
+	text-align:center;
+	white-space:nowrap;
+	text-decoration:none;
+}
+
+.lblLabel {
+		m argin-right: 50px;
+			c olor: #282828 ;
+			color:#AE3E08;
+			float:right;
+}
+legend {
+	font-weight: bold;
+	color: #181818;
+}
+.lblOptions {
+font-size:small;
+padding-left:5px;
+}
+
+.tdRight {
+font-size:small;
+padding-left:20px;
+	}
+td.tdLeft {
+	width: 250px;
+}
+
+<!--XML list -->
+{
+display: block;
+font-family: Arial, sans serif;
+line-height: 1.7em;
+}
+
+vehicles {
+margin-left: 140px;
+}
+
+vehicle {
+margin-right: 50px;
+border: 1px solid ;
+width: 700px;
+height: 120px;
+float: left;
+}
+
+pic {
+width: 180px;
+height: 120px;
+float: left;
+}
+
+.imgList {
+margin: 0 auto;
+}
+
+make {
+float: left;
+border-left: 1px grey solid;
+height:40px;
+width: 100px;
+text-align: center;
+padding: 40px 16px;
+font-size: 1.1em;
+font-weight: bold;
+font-variant: small-caps;
+}
+
+model {
+float: left;
+border-left: 1px grey solid;
+height:40px;
+width: 140px;
+padding: 40px 16px;
+text-align: center;
+}
+year {
+float: left;
+border-left: 1px grey solid;
+height:40px;
+width: 70px;
+padding: 40px 16px;
+text-align: center;
+}
+price {
+height: 40px;
+float: left;
+border-left: 1px grey solid;
+float: left;
+padding: 40px 16px;
+text-align: center;
+}
+
+b, a {
+ display: inline;
+}
+
+vehicleSingle {
+margin-right: 50px;
+width: 700px;
+padding: 12px;
+float: left;
+display: block;
+line-height: 1.7em;
+}
+
+picSingle {
+width: 470px;
+height: 250px;
+padding-right: 16px;
+padding-left:16px;
+padding-top:16px;
+float: left;
+}
+
+img {
+margin: 0 auto;
+float: left;
+}
+
+makeSingle {
+margin-bottom:5px;
+width: 150px;
+color: #AE3E08;
+font-size: 1.5em;
+font-variant: small-caps;
+font-family:"Showcard Gothic", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+details {
+display: block;
+float: none;
+padding-top: 150px;
+}
+
+modelSingle, priceSingle, yearSingle, kilometers, body_style, engine, transmission, color, features, description {
+	display:block;
+	margin-bottom:5px;
+}
+
+modelSingle:before {  margin-right: 10px; font-weight: bold; content: "Model: "; }
+yearSingle:before {  margin-right: 10px; font-weight: bold; content: "Year: "; }
+priceSingle:before {  margin-right: 10px; font-weight: bold; content: "Price: $"; }
+kilometers:before {  margin-right: 10px; font-weight: bold; content: "Kilometers: "; }
+price:before {  content: "$"; }
+body_style:before {  margin-right: 10px; font-weight: bold; content: "Body style: "; }
+engine:before {  margin-right: 10px; font-weight: bold; content: "Engine: "; }
+transmission:before { margin-right: 10px; font-weight: bold; content: "Transmission: "; }
+color:before { margin-right: 10px; font-weight: bold; content: "Color: "; }
+features:before { margin-right: 10px; font-weight: bold; content: "Features: "; }
+description:before {  margin-right: 10px; font-weight: bold; content: "Description: "; }
+
+kilometers:after { font-style: ; content: " km."; }
+
+<!--xml end -->

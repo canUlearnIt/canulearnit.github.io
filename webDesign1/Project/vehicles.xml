@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- #BeginTemplate "template.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<!-- #BeginEditable "doctitle" -->
+	<title>Vehicles - Happy Used  Auto</title>
+	<!-- #EndEditable -->
+
+<link href="main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="outerBox">
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+
+		<div id="pageHeader">
+		<a href="home.html"><img id="logo" alt="Happy Car" title="Happy Car" src="images/Happy_Used_Auto_Logo.jpg" /></a>
+		<!--Header content goes here-->
+		<h3 id="slogan">We have the car you need!</h3>
+		</div><!--pageHeader-->
+		
+<!-- #BeginEditable "body" -->
+		<div id="mainContent" >
+		<h4>List of Featured Vehicles</h4>
+					&nbsp;
+<p>The following list if vehicles displays featured vehicles available in our store. It is important to understand
+that our inventory is not limited to illustrated vehicles. Please visit us at <b>232 Bloor st.</b> or fill out our <a href="form.html" style="text-decoration:underline;">online form</a> to
+be exposed to the full range of choices.</p>
+			&nbsp;
+<table style="width:700px; ">
+<tr ><th style="width:180px; color:#AE3E08;">Image</th><th style="width:140px; color:#AE3E08;">Make</th><th style="width:160px; color:#AE3E08;">Model</th>
+<th style="width:110px; color:#AE3E08;">Year</th><th style="color:#AE3E08;" >Price</th></tr></table>
+<used_cars>
+	<vehicle id="car1">
+		<pic><a href="honda.xml"><img title="Honda" alt="Honda" class="imgList" src="images/hondaS.jpg" /></a>
+		</pic>
+		<make>Honda</make>
+		<model>Civic</model>
+		<year>2010</year>
+		<price>15,900</price>
+	</vehicle>
+	<vehicle id="car2">
+		<pic><a class="vehicleLink" href="toyota.xml"><img title="Toyota" alt="Toyota" class="imgList" src="images/toyotaS.jpg" /></a></pic>
+		<make>Toyota</make>
+		<model>Corolla</model>
+		<year>2010</year>
+		<price>15,988</price>
+	</vehicle>
+	<vehicle id="car3">
+		<pic><a class="vehicleLink" href="nissan.xml"><img title="Nissan" alt="Nissan" class="imgList" src="images/nissanS.jpg" /></a></pic>
+		<make>Nissan</make>
+		<model>Altima</model>
+		<year>2010</year>
+		<price>21,995</price>
+	</vehicle>
+	<vehicle id="car4">
+		<pic><a class="vehicleLink" href="kia.xml"><img title="KIA" alt="KIA" class="imgList" src="images/KIAS.jpg" /></a></pic>
+		<make>Kia</make>
+		<model>Soul Sport Wagon</model>
+		<year>2011</year>
+		<price>15,693</price>
+	</vehicle>
+	<vehicle id="car5">
+		<pic><a class="vehicleLink" href="mazda.xml"><img title="Mazda" alt="Mazda"  class="imgList" src="images/mazdaS.jpg" /></a></pic><make>Mazda</make>
+		<model>MAZDA3</model>
+		<year>2010</year>
+		<price>15,800</price>
+	</vehicle>
+</used_cars>
+		<!--Page content goes here-->
+		</div><!--mainContent-->
+<!-- #EndEditable -->
+		
+		
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+		
+				<!-- #BeginEditable "navigation" -->
+		<div id="mainNav">
+		
+		<div class="mylink" title="home "><a href="home.html" class="myl" >Home</a>
+		</div><div class="mylink" title="vehicles"  style="background-image:url('images/btnActive.jpg');"><a href="vehicles.xml"  style="color:black;" class="myl">Vehicles</a>
+		</div><div class="mylink" title="find your happy auto!"><a href="form.html" class="myl">Find your happy auto!</a>
+		</div><div class="mylink" title="sitemap"><a href="sitemap.html" class="myl">Sitemap</a>
+		</div><div class="mylink" title="contact us"><a href="mailto:happyUsedAutoOwner@hotmail.com" class="myl">Contact us</a>
+		</div>
+		<div><a href="../../webDesign1.html" target="_blank">Back</a></div></div>
+		<!--mainNav end-->
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+		<!-- #EndEditable -->
+
+
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+	
+	 	<div id="pageFooter" >
+	 	<div id="footerMenu"><a href="home.html">Home</a> | <a href="vehicles.xml">Vehicles</a> | <a href="sitemap.html">Sitemap</a> |
+	 	<a href="mailto:happyUsedAutoOwner@hotmail.com">Contact us</a></div> <div id="copyright">&copy;Happy Used Auto 2013</div> 
+		</div><!--pageFooter end-->
+		<!--Liliya Artyukh Student Number: 300702887 - Web Design:213  -->
+		</div><!--outerBox end-->
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

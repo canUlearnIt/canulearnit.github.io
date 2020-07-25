@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<style type="text/css">
+body {
+	background-color:#5279A0
+}
+#outerBox {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #232323;
+	width: 950px;
+	margin: 0 auto;
+	background-color:white;
+}
+#banner {
+height:163px;
+background-color:#0B365B;
+top:0px;
+}
+#logo {
+	float:left;
+}
+.titles {
+font-size:16px;
+font-weight:bold;
+font-family:"Arial Narrow", "Franklin Gothic Medium", Arial, sans-serif;
+color:black;
+}
+
+.labels {
+	font-size:small;
+	font-weight: bold;
+	color: #0B365B;
+	font-family: "Arial", sans-serif;
+}
+#content {
+height:800px;
+
+}
+#footer {
+	text-align:center;
+	height:40px;
+}
+#copy {
+	padding-top:20px;
+}
+#weather {
+	color:white;
+	font-weight:bold;
+	margin-left:500px;
+	top:50px;
+}
+#wService {
+
+		margin-bottom: 120px;
+}
+
+td {
+	height: 30px;
+}
+</style>
+</head>
+
+<body>
+<div id="outerBox">
+<div id="banner" style="height: 163px">
+	<img id="logo" alt="Safe Flights" height="133" src="plane.jpg" width="199" />
+	<p id="wService"><a id="weather" href="http://www.theweathernetwork.com/">Weather Service</a></p>
+	<h1 class="titles" style="	height:30px;">Safe Flighs</h1>
+	</div>
+<div id="content">
+<br />
+<a href="../../webDesign1.html" target="_blank">Back</a>
+<p>Book your flight now:</p>
+	<form action="" method="post" style="height: 597px">
+		<fieldset name="Group1" style="height: 350px">
+		<legend class="titles">Flight Information</legend>
+		<table style="width: 100%; height: 201px;">
+			<tr>
+				<td style="width: 270px"><label class="labels">Departure City:</label></td>
+				<td><select name="Select1" style="width: 117px">
+				<option>Toronto</option>
+				<option>Montreal</option>
+				<option>Vancouver</option>
+				<option>Edmonton</option>
+				<option>London</option>
+				</select>&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Departure Date:</label>&nbsp;</td>
+				<td><label class="labels">Month: <select name="Select3">
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+				<option>September</option>
+				<option>October</option>
+				<option>November</option>
+				<option>December</option>
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+			</select></label>&nbsp;<label class="labels">Day:</label>
+				<select name="Select4">
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+			</select><label class="labels">Year: <select name="Select5">
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				</select></label></td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Preferred Departure Time:</label>&nbsp;</td>
+				<td>
+				<input checked="checked" name="Radio4" type="radio" value="morning" /><label class="labels">Morning</label>&nbsp;
+				<input name="Radio4" type="radio" value="afternoon" /><label class="labels">Afternoon
+				<input name="Radio4" type="radio" value="evening" /><label class="labels">Evening</label></label></td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Destination City:</label>&nbsp;</td>
+				<td><select name="Select2" style="width: 111px">
+				<option>Moscow</option>
+				<option>London</option>
+				<option>Seul</option>
+				<option>Beigin</option>
+				<option>Almaty</option>
+				</select>&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Flight Type:</label>&nbsp;</td>
+				<td>
+				<input name="Radio1" type="radio" checked="checked" value="one way" />&nbsp;<label class="labels">One
+				Way <input name="Radio1" type="radio" value="return" /><label class="labels">Return</label></label></td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Return Date:</label>&nbsp;</td>
+				<td><label class="labels">Month: <select name="Select3">
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+				<option>September</option>
+				<option>October</option>
+				<option>November</option>
+				<option>December</option>
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+				<option>April</option>
+				</select></label>&nbsp;<label class="labels">Day:</label>
+				<select name="Select4">
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select><label class="labels">Year: <select name="Select5">
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				</select></label>&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Preferred Return
+				Time:</label></td>
+				<td>
+				<input checked="checked" name="Radio5" type="radio" value="morning" /><label class="labels">Morning</label>
+				&nbsp;<input name="Radio5" type="radio" value="afternoon" /><label class="labels">Afternoon
+				<input name="Radio5" type="radio" value="evening" /><label class="labels">Evening</label></label>&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Number of Tickets:</label>&nbsp;</td>
+				<td>
+				<input name="Radio6" type="radio" value="1" />1
+				<input name="Radio6" type="radio" value="2" /><label class="labels">2</label>
+				<input name="Radio6" type="radio" value="3" /><label class="labels">3</label>
+				<input name="Radio6" type="radio" value="4" /><label class="labels">4</label>
+				&nbsp;&nbsp;<label class="labels">Other (please specify):
+				<input name="Text1" type="text" /></label></td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Flight Class:</label></td>
+				<td>
+				<input name="Radio3" type="radio" checked="checked" value="economy" /><label class="labels">economy
+				<input name="Radio3" type="radio" value="business" /></label>&nbsp;<label  class="labels">business</label></td>
+			</tr>
+			</table>
+		</fieldset>
+		&nbsp;
+
+		<fieldset name="Group1" style="height: 320px">
+		<legend class="titles">Personal Information</legend>
+		<table style="width: 100%; height: 275px;">
+			<tr>
+				<td style="width: 270px"><label class="labels">First Name:</label>&nbsp;</td>
+				<td><input name="Text2" type="text" /></td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label class="labels">Last Name:</label>&nbsp;</td>
+				<td><input name="Text3" type="text" />&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="width: 270px"><label  class="labels">Email Address:</label>&nbsp;</td>
+				<td><input name="Text4" type="text" />&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="width: 270px; height: 94px;"><label  class="labels">Special Requests:</label>&nbsp;</td>
+				<td style="height: 94px">
+				<textarea name="TextArea1" style="width: 370px; height: 63px">--Please enter here any special requests for meals, seating, etc.--</textarea>&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="height: 78px">
+				<a href="mailto:flights@onlineflights.com">
+				<input name="Button1" type="button" value="Make Reservation" style="text-decoration:none; width: 200px; height: 34px; font-size:large;" /></a>&nbsp; &nbsp; &nbsp;
+				<input name="Button2" type="reset" value="Start Again" style="width: 131px; height: 34px; font-size:large;" />&nbsp;</td>
+			</tr>
+		</table>
+		</fieldset></form>
+</div>
+<div id="footer">
+<h6 id="copy">&copy;Liliya Artyukh 300702887 Web Design COMP123 Section 063 Winter2013 </h6>
+</div>
+
+</div>
+
+
+</body>
+
+</html>
